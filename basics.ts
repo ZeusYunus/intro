@@ -48,11 +48,11 @@ course = 12341;
 
 // Functions & types
 
-function addNumbers(a: number, b: number) {
+function addNumbers(a: number, b: number): number | string {
   return a + b;
 }
 
-function printOutput(value: any) {
+function printOutput(value: any): void {
   console.log(value);
 }
 
