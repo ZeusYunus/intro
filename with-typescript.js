@@ -1,5 +1,5 @@
-function addNumbers(a, b) {
+function fnAddNumbers(a, b) {
     return a + b;
 }
-var sumResult = addNumbers(2, 5);
+var sumResult = fnAddNumbers(2, 5);
 console.log(sumResult);

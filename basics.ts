@@ -116,8 +116,8 @@ max = {
 };
 
 class Instructor implements Human {
-  firstName: string;
-  age: number;
+  firstName!: string;
+  age!: number;
   greet() {
     console.log('Hello!!!!');
   }

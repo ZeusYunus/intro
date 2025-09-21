@@ -1,7 +1,7 @@
-function addNumbers(a: number, b: number) {
+function fnAddNumbers(a: number, b: number) {
   return a + b;
 }
 
-const sumResult = addNumbers(2, 5);
+const sumResult = fnAddNumbers(2, 5);
 
 console.log(sumResult);
